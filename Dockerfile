@@ -10,7 +10,7 @@ VOLUME /tmp
 #Make port 5080 available to the world outside this container
 EXPOSE 6080
 
-ARG JAR_FILE=target/bravehear-0.0.1-SNAPSHOT.jar
+ARG JAR_FILE=target/Brave_Heart-0.0.1-SNAPSHOT.jar
 
 COPY ${JAR_FILE} springboot.jar
 
