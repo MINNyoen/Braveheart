@@ -16,4 +16,16 @@ public class HomeController {
         ModelAndView mv = new ModelAndView("index");
         return mv;
     }
+
+    @RequestMapping("main/terms/ko")
+    public ModelAndView TermsPage(HttpServletRequest request, HttpServletResponse response) {
+        ModelAndView mv = new ModelAndView("terms");
+        return mv;
+    }
+
+    @RequestMapping("main/privacy/ko")
+    public ModelAndView PrivacyPage(HttpServletRequest request, HttpServletResponse response) {
+        ModelAndView mv = new ModelAndView("privacy");
+        return mv;
+    }
 }
