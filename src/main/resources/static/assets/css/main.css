@@ -26,6 +26,11 @@
     font-weight: 300;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Brave';
+    src: url("fonts/A25-SQUANOVA.ttf");
+}
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
     font-family: sans-serif;
@@ -438,6 +443,7 @@ body {
     padding-left: 10%;
 }
 .header--logo p {
+    font-family: 'Brave';
     margin: 0 0 0 10px;
     font-size: 16px;
     font-weight: 700;
@@ -634,11 +640,13 @@ body {
     width: 100%;
     list-style: none;
 }
-.intro--options > img {
+.intro--options > a > img {
     max-width: 300px;
-    width: 20%;
+    margin-left: 10%;
+    width: 80%;
     height: 100%;
     max-height: 100px;
+    min-width: 150px;
 }
 .banner--img{
     position: absolute;
@@ -677,7 +685,6 @@ body {
 /*  2222222222222222 */
 
 .work {
-    background: url("/assets/img/BraveHeartMain.png") no-repeat center center / cover;
     position: relative;
     display: -webkit-box;
     display: -webkit-flex;
@@ -886,7 +893,6 @@ body {
 }
 /*  333333333333 */
 .about {
-    background: url(/assets/img/BraveHeartMain.png) no-repeat center center / cover;
     position: relative;
     display: -webkit-box;
     display: -webkit-flex;
@@ -1621,6 +1627,9 @@ button.service:hover{
     padding-left: 10%;
     margin-top: 20px;
     display: flex;
+}
+.footer-menu > a > p {
+    color : royalblue;
 }
 .modal{
     max-width: 100% !important;
