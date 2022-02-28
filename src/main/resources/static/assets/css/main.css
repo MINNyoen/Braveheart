@@ -615,7 +615,8 @@ body {
     margin: 0;
     padding: 0;
     position: fixed;
-    bottom : 30%;
+    bottom : 1%;
+    margin-bottom : 120px;
     width: 100%;
     list-style: none;
 }
@@ -630,8 +631,8 @@ body {
 .banner--img{
     position: absolute;
     top: 7%;
-    width: 34%;
-    margin-left: 33%;
+    width: 30%;
+    margin-left: 35%;
 }
 @media (max-width: 900px) {
     .intro--banner {
