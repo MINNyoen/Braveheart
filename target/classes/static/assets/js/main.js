@@ -13,6 +13,11 @@ $( document ).ready(function() {
         }
       })
 });
+
+// $('body').on('scroll touchmove mousewheel', e => {
+//     $('body').scrollTop(0);
+// });
+
 function videoModal (category) {
     $("#videoModal").modal({
         fadeDuration: 500
