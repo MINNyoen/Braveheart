@@ -12,10 +12,6 @@ $( document ).ready(function() {
             
         }
       })
-      console.log(window.innerWidth);
-      if(window.innerWidth <= 1000){
-        $('.intro--banner').css('background', 'url("/assets/img/BraveHeartMain2.png") no-repeat center center / cover')
-      }
       
 });
 
