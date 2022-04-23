@@ -211,7 +211,7 @@ th {
 }
 /* linear-gradient(to bottom, #31d5da, #d8efde); */
 body {
-    background: #fff;
+    background: #072444;
   
     font-size: 14px;
     line-height: 1.6;
@@ -388,7 +388,7 @@ body {
 } */
 .header {
     background: #072444;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     display: -webkit-box;
@@ -631,8 +631,8 @@ body {
 .banner--img{
     position: absolute;
     top: 7%;
-    width: 30%;
-    margin-left: 35%;
+    width: 36%;
+    margin-left: 32%;
 }
 @media (max-width: 900px) {
     .intro--banner {
@@ -653,8 +653,8 @@ body {
     }
     .banner--img{
         top: 13%;
-        width: 40%;
-        margin-left: 30%;
+        width: 60%;
+        margin-left: 20%;
     }
 }
 /*  2222222222222222 */
