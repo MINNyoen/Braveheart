@@ -17,13 +17,13 @@ public class HomeController {
         return mv;
     }
 
-    @RequestMapping("main/terms/ko")
+    @RequestMapping("BraveHeart/terms/ko")
     public ModelAndView TermsPage(HttpServletRequest request, HttpServletResponse response) {
         ModelAndView mv = new ModelAndView("terms");
         return mv;
     }
 
-    @RequestMapping("main/privacy/ko")
+    @RequestMapping("BraveHeart/privacy/ko")
     public ModelAndView PrivacyPage(HttpServletRequest request, HttpServletResponse response) {
         ModelAndView mv = new ModelAndView("privacy");
         return mv;

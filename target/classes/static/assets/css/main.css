@@ -574,9 +574,10 @@ body {
     }
 }
 .intro--banner {
-    background: url("/assets/img/BraveHeartMain.png") no-repeat center center / cover;
-    height: 100%;
-    margin-bottom: 190px;
+    background: url("/assets/img/BraveHeartMain2.png") no-repeat center 44% / cover;
+    height: 200%;
+    width: 100%;
+    /* margin-bottom: 190px; */
     
 }
 .intro--banner {
@@ -628,11 +629,26 @@ body {
     max-height: 100px;
     min-width: 150px;
 }
+
+.banner--privacy{
+    display: block;
+    width: 18%;
+    margin: auto;
+    padding-bottom: 5%;
+}
+
+.banner--terms{
+    display: block;
+    width: 18%;
+    margin: auto;
+    padding-bottom: 5%;
+}
+
 .banner--img{
-    position: absolute;
-    top: 7%;
-    width: 36%;
-    margin-left: 32%;
+    display: block;
+    width: 33%;
+    margin: auto;
+    padding-top: 2%;
 }
 @media (max-width: 900px) {
     .intro--banner {
@@ -641,10 +657,22 @@ body {
     .intro--banner h1 {
         font-size: 55px;
     }
+    .banner--img{
+        display: block;
+        width: 50%;
+        margin: auto;
+        padding-top: 8%;
+    }
 }
 @media (max-width: 767px) {
     .intro--banner h1 {
         font-size: 44px;
+    }
+    .banner--img{
+        display: block;
+        width: 50%;
+        margin: auto;
+        padding-top: 12%;
     }
 }
 @media (max-width: 600px) {
@@ -652,9 +680,10 @@ body {
         font-size: 55px;
     }
     .banner--img{
-        top: 13%;
-        width: 60%;
-        margin-left: 20%;
+        display: block;
+        width: 62%;
+        margin: auto;
+        padding-top: 30%;
     }
 }
 /*  2222222222222222 */
